@@ -1,0 +1,61 @@
+*{
+    font-family: fantasy;
+}
+header{
+    width: 100%;
+    text-align: center;
+}
+#contenedor-productos{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.contenedor{
+    text-align: center;
+    margin: 25px;
+}
+.descripcion{
+    padding: 10px;
+    color: white;
+    background-color: #711A75;
+    text-align: left;
+    width: 200px;
+}
+.producto{
+    background-color: #711A75;
+    color: white;
+    padding: 10px;
+    padding-top: 20px;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+    border-radius: 10px 10px 0px 0px;
+}
+.producto img{
+    height: 200px;
+    width: 200px;
+}
+button{
+    font-weight: bolder;
+    color: white;
+    background-color: #711A75;
+    font-size: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    border: #711A75 solid 3px;
+    border-radius: 0px 0px 10px 10px;
+    margin-top: 0px;
+    padding: 5px 25px;
+    width: 100%;
+    transition: border-color 0.3s, background-color 0.3s;
+
+}
+button:hover{
+    border-color: #272727;
+    background-color: #272727;
+    color: white;
+}
+button::after{
+    border-radius: 0px;
+}

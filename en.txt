@@ -1,0 +1,7 @@
+una pagina llamda efectosgaleria.html
+body
+Nuevos productos como titulo
+cuantro elementos una al lado del otro
+un boton debajo de cada producto
+cuando se pulsa el boton aparecer una lista de caracteristicas debajo del botón en un principio.
+tener un boton cerrar para cerrar la lista de caracteristicas/descripción
